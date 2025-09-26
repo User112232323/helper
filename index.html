@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to Study Portal</h1>
+  <p>Select a resource to begin:</p>
+
+  <div class="button-container">
+    <button onclick="openLink('https://mathsspot.com')">Open Resource 1</button>
+    <button onclick="openLink('https://playhop.com')">Open Resource 2</button>
+    <button onclick="openLink('https://bloxd.io')">Open Resource 3</button>
+    <button onclick="openLink('https://tbg95.com')">Open Resource Hub</button>
+  </div>
+
+  <script>
+    function openLink(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
